@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SMsenger</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="message">Message</string>
+    <string name="send_message">Send Message</string>
+    <string name="sms_icon">sms icon</string>
+    <string name="gallery">gallery</string>
+    <string name="enter_message_here">Enter Message Here</string>
+    <string name="introimage">IntroImage</string>
+
+</resources>

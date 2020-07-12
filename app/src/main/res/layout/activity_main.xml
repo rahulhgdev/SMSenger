@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="7dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="188dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/gallery"
+        app:srcCompat="@drawable/sms" />
+
+
+    <EditText
+        android:id="@+id/text_phone"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imageView"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="4dp"
+        android:ems="10"
+        android:hint="@string/phone_number"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/text_message"
+        android:layout_width="395dp"
+        android:layout_height="219dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="144dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_message_here"
+        android:inputType="textPersonName"
+        android:lines="10"
+        android:textColorHint="#000"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="49dp"
+        android:onClick="btnSend"
+        android:text="Send Message"
+        android:textColor="#fff"
+        android:background="#039BE5"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
